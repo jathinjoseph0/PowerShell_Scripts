@@ -4,15 +4,16 @@ winget upgrade --all
 winget install Git.Git
 winget install rocksdanister.LivelyWallpaper
 # GlazeWM Setup Begin
-winget install lars-berger.GlazeWM --location $HOME\GlazeWM\
-cd $HOME\GlazeWM\
-Get-ChildItem -Filter "*.exe" | Rename-Item -NewName {"GlazeWM.exe"}
+New-Item -ItemType Directory $HOME\GlazeWM\
+Set-Location $HOME\GlazeWM\
+curl -o GlazeWM.exe https://github.com/lars-berger/GlazeWM/releases/download/v1.11.1/GlazeWM_x64_1.11.1.exe
+New-Item -ItemType Directory $HOME\.glazw-wm
 cd $HOME\.glaze-wm
 curl -o config.yaml https://gist.github.com/jathinjoseph0/9849775ee708fbde64c6a97164798f0f/raw/GlazeWM.yaml
 cd $HOME\GlazeWM\
 .\GlazeWM.exe
 # GlazeWM Setup End
-cd $HOME
+Set-Location $HOME
 winget install VSCodium.VSCodium
 winget install Microsoft.PowerToys
 winget install Python.Python.3.11
