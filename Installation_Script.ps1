@@ -20,4 +20,5 @@ winget install RProject.R
 winget install RProject.Rtools
 winget install Posit.RStudio
 
-stop-process powershell
+stop-process -name powershell
+stop-process -name WindowsTerminal
