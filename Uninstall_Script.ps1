@@ -1,4 +1,5 @@
 # Uninstallation Scripts
+Add-AppxPackage -RegisterByFamilyName -MainPackage Microsoft.DesktopAppInstaller_8wekyb3d8bbwe
 winget uninstall 'OMEN Audio Control'
 winget uninstall 'OMEN Gaming Hub'
 winget uninstall 'Clipchamp'
