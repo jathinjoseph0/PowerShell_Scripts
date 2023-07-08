@@ -1,5 +1,6 @@
 # Installation Phase
 Add-AppxPackage -RegisterByFamilyName -MainPackage Microsoft.DesktopAppInstaller_8wekyb3d8bbwe
+winget upgrade --all
 winget install rocksdanister.LivelyWallpaper
 winget install lars-berger.GlazeWM
 winget install VSCodium.VSCodium
