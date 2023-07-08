@@ -51,4 +51,5 @@ winget uninstall 'Xbox Game Speech Window'
 winget uninstall 'Snipping Tool'
 winget uninstall 'Netflix'
 winget uninstall 'LinkedIn'
+winget uninstall 'Prime Video for Windows'
 exit
