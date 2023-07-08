@@ -4,7 +4,7 @@ A script written in PowerShell to automate the setup of my Windows system.
 ## Steps
 1. Download this file.
 2. If browser prompts that the file is not safe, choose to save the file.
-3. Open PowerShell.
+3. Open PowerShell in Administrator Mode.
 4. Run the following command:
   ```Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process```
 5. Change directory to the path where the script was saved after download:
