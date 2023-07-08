@@ -19,4 +19,5 @@ winget install Python.Python.3.11
 winget install RProject.R
 winget install RProject.Rtools
 winget install Posit.RStudio
-exit
+
+stop-process powershell
