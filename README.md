@@ -9,8 +9,8 @@ A script written in PowerShell to automate the setup of my Windows system.
   ```Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process```
 5. Change directory to the path where the script was saved after download:
   ```cd (path)```
-6. Execute the following command:
-  ```.\New_Machine_Setup.ps1```
+6. Execute the script:
+  ```.\(name_of_script).ps1```
 
 # Explanation for the powershell command
 1. ```Set-ExecutionPolicy``` is a command to change the execution policy within powershell. Given that PowerShell is as powerful as it's name suggests😂.
