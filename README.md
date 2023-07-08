@@ -12,9 +12,9 @@ A script written in PowerShell to automate the setup of my Windows system.
   ```.\New_Machine_Setup.ps1```
 
 # Explanation for the powershell command
-```Set-ExecutionPolicy``` is a command to change the execution policy within powershell. Given that PowerShell is as powerful as it's name suggests😂.
-```-ExecutionPolicy``` is a parameter used to define how the policy is changed. It is set to Unrestricted to allow any script to run.
-```-Scope``` is a parameter used to define the extent to which the policy is changed. In this command, we set that to the current process.
+1. ```Set-ExecutionPolicy``` is a command to change the execution policy within powershell. Given that PowerShell is as powerful as it's name suggests😂.
+2. ```-ExecutionPolicy``` is a parameter used to define how the policy is changed. It is set to Unrestricted to allow any script to run.
+3. ```-Scope``` is a parameter used to define the extent to which the policy is changed. In this command, we set that to the current process.
 
 To ensure good practice, I have put ```exit``` command at the end of the script to prevent anyone from executing any other commands by mistake.
 
