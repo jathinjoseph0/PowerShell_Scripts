@@ -1,6 +1,11 @@
 # Installation Phase
+"Ensuring WinGet is installed"
 Add-AppxPackage -RegisterByFamilyName -MainPackage Microsoft.DesktopAppInstaller_8wekyb3d8bbwe
+"Syncing with repository"
+winget update
+"Initiating application upgrades"
 winget upgrade --all
+"Beginning application installs"
 winget install Git.Git
 winget install rocksdanister.LivelyWallpaper
 # GlazeWM Setup Begin
