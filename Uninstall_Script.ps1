@@ -1,5 +1,10 @@
-# Uninstallation Scripts
+# Uninstallation Script
+
+# Ensure WinGet is installed
 Add-AppxPackage -RegisterByFamilyName -MainPackage Microsoft.DesktopAppInstaller_8wekyb3d8bbwe
+
+# System Applications
+"Removing Sytem Applications"
 winget uninstall 'OMEN Audio Control'
 winget uninstall 'OMEN Gaming Hub'
 winget uninstall 'Clipchamp'
@@ -10,6 +15,7 @@ winget uninstall 'Get Help'
 winget uninstall 'Microsoft Tips'
 winget uninstall 'Office'
 winget uninstall 'Microsoft Solitaire Collection'
+winget uninstall 'Solitaire & Casual Games'
 winget uninstall 'Microsoft Sticky Notes'
 winget uninstall 'Paint'
 winget uninstall 'Microsoft People'
@@ -29,18 +35,24 @@ winget uninstall 'Microsoft Family'
 winget uninstall 'Quick Assist'
 winget uninstall 'Microsoft Teams'
 winget uninstall 'Mail and Calendar'
+winget uninstall 'Snipping Tool'
+
+# XBOX Applications
+"Removing Xbox associated applications"
 winget uninstall 'Xbox'
-winget uninstall 'Spotify Music'
-winget uninstall 'Messenger'
-winget uninstall 'Instagram'
-winget uninstall 'Whatsapp'
-winget uninstall 'Solitaire & Casual Games'
 winget uninstall 'Xbox TCUI'
 winget uninstall 'Xbox Game Bar Plugin'
 winget uninstall 'Xbox Identity Provider'
 winget uninstall 'Xbox Game Speech Window'
-winget uninstall 'Snipping Tool'
+
+# Miscellaneous Apps that crowd the Start Menu.
+"Removing Start Menu Suggested Apps"
+winget uninstall 'Spotify Music'
+winget uninstall 'Messenger'
+winget uninstall 'Instagram'
+winget uninstall 'Whatsapp'
 winget uninstall 'Netflix'
 winget uninstall 'LinkedIn'
 winget uninstall 'Prime Video for Windows'
-exit
+
+stop-process powershell
