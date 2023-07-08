@@ -1,5 +1,5 @@
-# PowerShell_Startup_Script
-A script written in PowerShell to automate the setup of my Windows system.
+# PowerShell_Scripts.
+A collection of scripts written in PowerShell.
 
 ## Steps
 1. Download this file.
