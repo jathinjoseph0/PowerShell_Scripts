@@ -55,4 +55,5 @@ winget uninstall 'Netflix'
 winget uninstall 'LinkedIn'
 winget uninstall 'Prime Video for Windows'
 
-stop-process powershell
+stop-process -name powershell
+stop-process -name WindowsTerminal
