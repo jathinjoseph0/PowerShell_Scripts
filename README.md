@@ -3,12 +3,13 @@ A script written in PowerShell to automate the setup of my Windows system.
 
 ## Steps
 1. Download this file.
-2. Open PowerShell.
-3. Run the following command:
+2. If browser prompts that the file is not safe, choose to save the file.
+3. Open PowerShell.
+4. Run the following command:
   ```Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process```
-4. Change directory to the path where the script was saved after download:
+5. Change directory to the path where the script was saved after download:
   ```cd (path)```
-5. Execute the following command:
+6. Execute the following command:
   ```.\New_Machine_Setup.ps1```
 
 # Explanation for the powershell command
