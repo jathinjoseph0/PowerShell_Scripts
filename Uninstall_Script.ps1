@@ -4,7 +4,7 @@
 Add-AppxPackage -RegisterByFamilyName -MainPackage Microsoft.DesktopAppInstaller_8wekyb3d8bbwe
 
 # System Applications
-"Removing Sytem Applications"
+"Removing System Applications"
 winget uninstall 'OMEN Audio Control'
 winget uninstall 'OMEN Gaming Hub'
 winget uninstall 'Clipchamp'
