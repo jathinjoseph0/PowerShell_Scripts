@@ -12,7 +12,7 @@ winget install rocksdanister.LivelyWallpaper
 New-Item -ItemType Directory $HOME\GlazeWM\
 Set-Location $HOME\GlazeWM\
 curl -o GlazeWM.exe https://github.com/lars-berger/GlazeWM/releases/download/v1.11.1/GlazeWM_x64_1.11.1.exe
-New-Item -ItemType Directory $HOME\.glazw-wm
+New-Item -ItemType Directory $HOME\.glaze-wm
 cd $HOME\.glaze-wm
 curl -o config.yaml https://gist.github.com/jathinjoseph0/9849775ee708fbde64c6a97164798f0f/raw/GlazeWM.yaml
 cd $HOME\GlazeWM\
