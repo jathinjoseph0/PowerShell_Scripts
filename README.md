@@ -6,7 +6,6 @@ A script written in PowerShell to automate the setup of my Windows system.
 2. Open PowerShell.
 3. Run the following command:
   ```Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process```
-     (Only copy the content after $>)
 4. Change directory to the path where the script was saved after download:
   ```cd (path)```
 5. Execute the following command:
