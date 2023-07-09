@@ -25,7 +25,6 @@ cd $HOME\GlazeWM\
 .\GlazeWM.exe
 # GlazeWM Setup End
 Set-Location $HOME
-winget install VSCodium.VSCodium
 winget install Microsoft.PowerToys
 
 stop-process -name powershell
