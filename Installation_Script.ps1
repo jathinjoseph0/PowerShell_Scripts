@@ -27,10 +27,6 @@ cd $HOME\GlazeWM\
 Set-Location $HOME
 winget install VSCodium.VSCodium
 winget install Microsoft.PowerToys
-winget install Python.Python.3.11
-winget install RProject.R
-winget install RProject.Rtools
-winget install Posit.RStudio
 
 stop-process -name powershell
 stop-process -name WindowsTerminal
