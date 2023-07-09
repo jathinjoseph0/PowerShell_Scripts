@@ -7,6 +7,7 @@ Remove-Item $HOME\.glaze-wm\ -Recurse
 # Finish GlazeWM Uninstall
 winget uninstall VSCodium.VSCodium
 winget uninstall Microsoft.PowerToys
+winget uninstall Microsoft.Powershell
 
 stop-process -name powershell
 stop-process -name WindowsTerminal
